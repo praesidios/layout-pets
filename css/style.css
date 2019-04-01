@@ -1,0 +1,228 @@
+* {
+	margin: 0px auto;
+	font-family: Arial Regular, sans-serif;
+}
+body {
+	width: 57.5%;
+	font-size: 12px;
+	color: #2A3845;
+}
+header {
+	width: 100%;
+	min-height: 39px;
+	background-color: #7A2E40;
+	box-shadow: 0px 9px 8px -1px rgb(222, 223, 224);
+}
+header ul {
+	color: #ffffff;
+	text-align: right;
+    padding: 12px 37.5px;
+}
+header li {
+	display: inline-block;
+}
+header li:after {
+	content: "|";
+	margin: 5px
+}
+header li:last-child:after {
+	content: " ";
+	margin: 5px;
+}
+main {
+	width: 530px;
+	float: left;
+	width: 68%;
+
+}
+h1 {
+	font-size: 18px;
+    font-family: Georgia Regular;
+	color: #FA7393;
+	margin-top: 32px;
+    margin-left: 101px;
+}
+.cherrycolor{
+	color: #7A2E40;
+	font-family: Georgia Regular;
+}
+h4 {
+	color: #818282;
+	margin-left: 102px;
+}
+.cap:before {
+	content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background: url(../img/bigpaw.png);
+    background-size: cover;
+    vertical-align: sub;
+    margin-right: 11px;
+    margin-left: -23px;
+}
+.paw {
+	float: left;
+	padding-top: 29px;
+    padding-left: 47px;
+}
+.content1 {
+	background: #F9F9F9;
+    border: 1px solid #F1EAEC;
+    max-width: 442px;
+    box-sizing: border-box;
+    margin-top: 41px;
+    margin-left: 33px;
+	padding: 17px;
+}
+h2{
+	font-size: 14px;
+    color: #7A2E40;
+    margin-bottom: 11px;
+    margin-right: 16px;
+    border-bottom: 1px solid #E3DFE0;
+    padding-bottom: 6px;
+	letter-spacing: .6px;
+}
+.content1 p {
+	margin-top: 5px;
+    margin-left: -1px;
+    letter-spacing: 0.15px;
+    line-height: 17px;
+}
+.content1 ul {
+	margin-top: 22px;
+    margin-left: -21px;
+}
+.content1 ul li{
+    list-style-type: square;
+    color: #FE7B9A;
+    margin: 4px;
+    margin-left: -2px;
+}
+.content1 span {
+	color: #2A3845;
+    margin-left: 6px;
+    letter-spacing: 0.15px;
+}
+.dog {
+	border: 1px solid #E3DFE0;
+    padding: 5px;
+    margin-top: -1px;
+    margin-left: -7px;
+    float: left;
+    width: 93px;
+}
+.content2 {
+    border: 1px solid white;
+    max-width: 442px;
+    box-sizing: border-box;
+    margin: 23px 33px 35px
+}
+.content2 h2 {
+	padding-bottom: 12px;
+    margin-right: 48px;
+	
+}
+ .content2 p{
+	line-height: 18px;
+    margin-left: 112px;
+    letter-spacing: 0.2px;;
+}
+.content2 p:last-child{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+aside {
+	float: right;
+    margin-right: 39px;
+	width: 26%;
+}
+.lady {
+	margin-top: 12px;
+    margin-left: 15px;
+	box-shadow: 0px 35px 30px -20px rgba(222, 223, 224, 0.96)
+}
+h3 {
+	margin-top: 24px;
+	color: #7A2E40;
+}
+aside p {
+	margin-left: -3px;
+    margin-top: 6px;
+    line-height: 18px;
+}
+.links {
+	margin-top: 17px;
+    margin-left: -3px;
+}
+aside ul {
+	border: 1px solid #F1EAEC;
+    background: #F9F9F9;
+    margin: 14px 0px;
+    margin-right: 10px;
+    padding: 8px 0px 11px;
+    padding-left: 35px;
+    line-height: 23.8px;
+}
+aside ul li {
+	list-style-type:none;
+}
+aside ul li:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(../img/lapi.png);
+    background-size: cover;
+    vertical-align: sub;
+    margin-right: 11px;
+    margin-left: -23px;
+}
+.clear {
+	clear: both;
+}
+a {
+	color:#A43B55;
+}
+footer {
+	background:#F9F9F9;
+    min-height: 30px;
+    padding: 12px 34px;
+    line-height: 17px;
+}
+.xhtml:after {
+	content: "|";
+	margin: 4px;
+}
+.css:after {
+	content: "|";
+    margin: 5px;
+}
+@media (max-width: 1250px) {
+	body {
+		width: 75%;
+}
+@media (max-width: 870px) {
+	body {
+		width: 96%;
+}
+@media (max-width: 750px) {
+	main, aside {
+		float: none;
+		margin: 0px auto;
+		width: 100%;
+	}
+	body {
+		width: 96%;
+	}
+	header ul {
+		text-align: left;
+		padding: 12px 13.5px;
+	}
+}
+
+
+p.red::selection {
+	background: #ffb7b7;
+	}
